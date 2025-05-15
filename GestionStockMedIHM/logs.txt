@@ -1,0 +1,54 @@
+[14/05/2025 01:33:36] Début CreateDemande - NomClient : BONY, StatutDemande : EnAttente
+[14/05/2025 01:33:36] Avant AddAsync - UtilisateurId : 1, StatutDemande : EnAttente
+[14/05/2025 01:33:36] Avant AddAsync - Entity Type: Demande, Entity State: Detached
+[14/05/2025 01:33:37] Sauvegarde réussie pour Demande
+[14/05/2025 01:33:37] Demande créée - DemandeId : 28
+[14/05/2025 01:33:37] Avant appel à CreateAsync - NomMedicament : Paracétamol, Quantite : 12
+[14/05/2025 01:33:37] Début CreateLigneDemande - NomMedicament : Paracétamol, Quantite : 12, DemandeId : 28
+[14/05/2025 01:33:37] Après mapping - MedicamentId : 0, DemandeId : 0, Quantite : 12
+[14/05/2025 01:33:37] Avant insertion - MedicamentId : 1, DemandeId : 28, Quantite : 12
+[14/05/2025 01:33:37] Insertion réussie
+[14/05/2025 01:33:37] Après appel à CreateAsync - Success : True
+[14/05/2025 01:33:37] CreateDemande réussi
+[14/05/2025 01:52:20] Début CreateDemande - NomClient : ZA IHANY, StatutDemande : EnAttente
+[14/05/2025 01:52:20] Avant AddAsync - UtilisateurId : 1, StatutDemande : EnAttente
+[14/05/2025 01:52:20] Avant AddAsync - Entity Type: Demande, Entity State: Detached
+[14/05/2025 01:52:20] Sauvegarde réussie pour Demande
+[14/05/2025 01:52:20] Demande créée - DemandeId : 29
+[14/05/2025 01:52:20] Avant appel à CreateAsync - NomMedicament : Paracétamol, Quantite : 17
+[14/05/2025 01:52:20] Début CreateLigneDemande - NomMedicament : Paracétamol, Quantite : 17, DemandeId : 29
+[14/05/2025 01:52:20] Après mapping - MedicamentId : 0, DemandeId : 0, Quantite : 17
+[14/05/2025 01:52:20] Avant insertion - MedicamentId : 1, DemandeId : 29, Quantite : 17
+[14/05/2025 01:52:20] Insertion réussie
+[14/05/2025 01:52:20] Après appel à CreateAsync - Success : True
+[14/05/2025 01:52:20] CreateDemande réussi
+[14/05/2025 01:56:13] Début CreateDemande - NomClient : KELIKELY, StatutDemande : EnAttente
+[14/05/2025 01:56:13] Avant AddAsync - UtilisateurId : 1, StatutDemande : EnAttente
+[14/05/2025 01:56:13] Avant AddAsync - Entity Type: Demande, Entity State: Detached
+[14/05/2025 01:56:13] Sauvegarde réussie pour Demande
+[14/05/2025 01:56:13] Demande créée - DemandeId : 30
+[14/05/2025 01:56:13] Avant appel à CreateAsync - NomMedicament : Paracétamol, Quantite : 12
+[14/05/2025 01:56:13] Début CreateLigneDemande - NomMedicament : Paracétamol, Quantite : 12, DemandeId : 30
+[14/05/2025 01:56:13] Après mapping - MedicamentId : 0, DemandeId : 0, Quantite : 12
+[14/05/2025 01:56:13] Avant insertion - MedicamentId : 1, DemandeId : 30, Quantite : 12
+[14/05/2025 01:56:13] Insertion réussie
+[14/05/2025 01:56:13] Après appel à CreateAsync - Success : True
+[14/05/2025 01:56:13] CreateDemande réussi
+[14/05/2025 09:49:50] Début CreateDemande - NomClient : MIRANTO, StatutDemande : EnAttente
+[14/05/2025 09:49:50] Avant AddAsync - UtilisateurId : 1, StatutDemande : EnAttente
+[14/05/2025 09:49:50] Avant AddAsync - Entity Type: Demande, Entity State: Detached
+[14/05/2025 09:49:50] Sauvegarde réussie pour Demande
+[14/05/2025 09:49:50] Demande créée - DemandeId : 31
+[14/05/2025 09:49:50] Avant appel à CreateAsync - NomMedicament : Paracétamol, Quantite : 12
+[14/05/2025 09:49:50] Début CreateLigneDemande - NomMedicament : Paracétamol, Quantite : 12, DemandeId : 31
+[14/05/2025 09:49:50] Après mapping - MedicamentId : 0, DemandeId : 0, Quantite : 12
+[14/05/2025 09:49:50] Avant insertion - MedicamentId : 1, DemandeId : 31, Quantite : 12
+[14/05/2025 09:49:50] Insertion réussie
+[14/05/2025 09:49:50] Après appel à CreateAsync - Success : True
+[14/05/2025 09:49:50] Avant appel à CreateAsync - NomMedicament : Ibuprofène, Quantite : 11
+[14/05/2025 09:49:50] Début CreateLigneDemande - NomMedicament : Ibuprofène, Quantite : 11, DemandeId : 31
+[14/05/2025 09:49:50] Après mapping - MedicamentId : 0, DemandeId : 0, Quantite : 11
+[14/05/2025 09:49:50] Avant insertion - MedicamentId : 2, DemandeId : 31, Quantite : 11
+[14/05/2025 09:49:50] Insertion réussie
+[14/05/2025 09:49:50] Après appel à CreateAsync - Success : True
+[14/05/2025 09:49:51] CreateDemande réussi

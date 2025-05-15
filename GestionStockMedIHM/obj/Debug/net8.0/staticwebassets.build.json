@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "r7OKsjVLfsWW1eQsEzwCVcPF8H/t8ZdUDa5o3E/ByEE=",
+  "Source": "GestionStockMedIHM",
+  "BasePath": "_content/GestionStockMedIHM",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
