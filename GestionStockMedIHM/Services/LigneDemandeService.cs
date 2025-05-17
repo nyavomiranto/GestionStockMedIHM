@@ -28,7 +28,6 @@ namespace GestionStockMedIHM.Services
         {
             try
             {
-                // Rechercher le médicament par son nom via le service
                 var medicamentResponse = await _medicamentService.GetByNomAsync(createLigneDemandeDto.NomMedicament);
                 if (!medicamentResponse.Success || medicamentResponse.Data == null)
                 {
@@ -40,13 +39,12 @@ namespace GestionStockMedIHM.Services
                 var entity = _mapper.Map<LigneDemande>(createLigneDemandeDto);
      
 
-                // Définir MedicamentId et DemandeId
+       
                 entity.MedicamentId = medicamentResponse.Data.Id;
                 entity.DemandeId = demandeId;
 
                 await _ligneDemandeRepository.AddAsync(entity);
 
-                // Recharger la LigneDemande avec son Medicament via le repository
                 var ligneDemandeWithMedicament = await _ligneDemandeRepository.GetByIdWithDetailsAsync(entity.Id);
                 if (ligneDemandeWithMedicament == null)
                 {

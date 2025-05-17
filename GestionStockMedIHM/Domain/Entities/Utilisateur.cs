@@ -14,9 +14,7 @@ namespace GestionStockMedIHM.Models.Entities
         public byte[] MotDePasseHash { get; set; }
         public byte[] MotDepasseSalt { get; set; }
         public string Role { get; set; }
-        public bool Etat { get; set; }
-
-        // Assure-toi que la navigation inverse est correctement définie
+        public bool Etat { get; set; } = false;
         public ICollection<Demande> Demandes { get; set; } = new List<Demande>();
     }
 

@@ -48,6 +48,11 @@ public partial class AppDbContext : DbContext
             .HasForeignKey(d => d.UtilisateurId)
             .OnDelete(DeleteBehavior.Restrict);
 
+        //Configurer l'etat a false au debut
+        modelBuilder.Entity<Utilisateur>()
+            .Property(u => u.Etat)
+            .HasDefaultValue(false);
+
         OnModelCreatingPartial(modelBuilder);
     }
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

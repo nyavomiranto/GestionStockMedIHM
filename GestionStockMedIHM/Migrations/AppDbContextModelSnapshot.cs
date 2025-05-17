@@ -294,7 +294,9 @@ namespace GestionStockMedIHM.Migrations
                         .HasColumnType("text");
 
                     b.Property<bool>("Etat")
-                        .HasColumnType("boolean");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
 
                     b.Property<byte[]>("MotDePasseHash")
                         .IsRequired()
