@@ -6,7 +6,7 @@ namespace GestionStockMedIHM.Interfaces.Stocks
     {
         Task<IEnumerable<Stock>> GetAllWithDetailsAsync();
         Task<Stock> GetByIdWithDetailsAsync(int id);
-
         Task<Stock> FindByMedicamentAndDatePeremption(int medicamentId, DateTime datePeremption);
+        Task<List<Stock>> GetStocksByMedicamentIdAsync(int medicamentId);
     }
 }

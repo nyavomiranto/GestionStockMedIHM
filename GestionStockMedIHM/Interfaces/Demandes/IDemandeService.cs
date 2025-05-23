@@ -11,5 +11,7 @@ namespace GestionStockMedIHM.Interfaces.Demandes
         Task<ApiResponse<DemandeResponseDto>> CreateAsync(CreateDemandeDto createDemandeDto);
         Task<ApiResponse<DemandeResponseDto>> UpdateAsync(int id, UpdateDemandeDto updateDemandeDto);
         Task<ApiResponse<bool>> DeleteAsync(int id);
+        Task<ApiResponse<string>> ConfirmDemandeAsync(int demandeId);
+        Task<ApiResponse<string>> RefuseDemandeAsync(int demandeId);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using GestionStockMedIHM.Interfaces.Stocks;
 using GestionStockMedIHM.Models.Entities;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace GestionStockMedIHM.Repositories
 {
@@ -20,12 +21,26 @@ namespace GestionStockMedIHM.Repositories
 
         public async Task<Stock> GetByIdWithDetailsAsync(int id)
         {
-            return await _appDbContext.Stocks.Include(e => e.Medicament).FirstOrDefaultAsync(e => e.Id == id);
+            var stock = await _appDbContext.Stocks
+                .Include(s => s.Medicament)
+                .FirstOrDefaultAsync(s => s.Id == id);
+            return stock;
         }
 
-        public async Task<Stock> FindByMedicamentAndDatePeremption(int medicamentId, DateTime datePeremption) 
+        public async Task<Stock> FindByMedicamentAndDatePeremption(int medicamentId, DateTime datePeremption)
         {
-            return await _appDbContext.Stocks.FirstOrDefaultAsync(s => s.MedicamentId == medicamentId && s.DatePeremption.Date == datePeremption.Date);
+            var normaliseDate = datePeremption.Date;
+            return await _appDbContext.Stocks
+                .FirstOrDefaultAsync(s => s.MedicamentId == medicamentId
+                    && s.DatePeremption.Date == normaliseDate);
+        }
+
+        public async Task<List<Stock>> GetStocksByMedicamentIdAsync(int medicamentId)
+        {
+            return await _appDbContext.Stocks
+                .Where(s => s.MedicamentId == medicamentId && s.Quantite > 0)
+                .OrderBy(s => s.DatePeremption)
+                .ToListAsync();
         }
     }
 }

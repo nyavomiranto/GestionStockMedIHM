@@ -121,4 +121,12 @@ C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\obj\Debug\net
 C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\obj\Debug\net8.0\GestionStockMedIHM.genruntimeconfig.cache
 C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\obj\Debug\net8.0\ref\GestionStockMedIHM.dll
 C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\obj\Debug\net8.0\GestionStockMedIHM.sourcelink.json
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\NY AVO\source\repos\GestionStockMedIHM\GestionStockMedIHM\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

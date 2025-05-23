@@ -27,5 +27,13 @@ namespace GestionStockMedIHM.Repositories
                 .Include(l => l.Medicament)
                 .FirstOrDefaultAsync(l => l.Id == id);
         }
+
+        public async Task<List<LigneDemande>> GetByDemandeIdAsync(int demandeId)
+        {
+            return await _appDbContext.LigneDemandes
+                .Include(ld => ld.Medicament)
+                .Where(ld => ld.DemandeId == demandeId)
+                .ToListAsync();
+        }
     }
 }

@@ -11,14 +11,12 @@ namespace GestionStockMedIHM.Domain.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id {get; set; }
         public required int Quantite { get; set; }
-
         public required int MedicamentId { get; set; }
         [ForeignKey("MedicamentId")]
         public required Medicament Medicament { get; set; }
-
-        public required int DemandeId { get; set; }
-        [ForeignKey("DemandeId")]
-        public required Demande Demande { get; set; }
+        public int SortieStockId { get; set; }
+        [ForeignKey("SortieStockId")]
+        public required SortieStock SortieStock { get; set; }
 
     }
 }

@@ -1,4 +1,5 @@
 ﻿using GestionStockMedIHM.Domain.DTOs.Responses;
+using GestionStockMedIHM.Domain.DTOs.Stocks;
 using GestionStockMedIHM.Domain.DTOs.Utilisateurs;
 using GestionStockMedIHM.Interfaces.Utilisateurs;
 using Microsoft.AspNetCore.Http;
@@ -15,6 +16,17 @@ namespace GestionStockMedIHM.Controllers
         public AuthController(IAuthService authService)
         {
             _authService = authService;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<ApiResponse<IEnumerable<UtilisateurResponseDto>>>> GetAll()
+        {
+            var response = await _authService.GetAllAsync();
+            if (!response.Success)
+            {
+                return BadRequest(response);
+            }
+            return Ok(response);
         }
 
         [HttpPost("register")]

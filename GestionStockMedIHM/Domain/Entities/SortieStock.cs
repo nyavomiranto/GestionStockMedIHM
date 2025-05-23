@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using GestionStockMedIHM.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GestionStockMedIHM.Models.Entities
@@ -19,5 +20,7 @@ namespace GestionStockMedIHM.Models.Entities
         public required int UtilisateurId { get; set; }
         [ForeignKey("UtilisateurId")]
         public required Utilisateur Utilisateur { get; set; }
+        public ICollection<LigneSortieStock> LignesSortieStock { get; set; } = new List<LigneSortieStock>();
+
     }
 }

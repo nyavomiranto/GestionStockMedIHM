@@ -7,5 +7,6 @@ namespace GestionStockMedIHM.Interfaces.LigneDemandes
     {
         Task<IEnumerable<LigneDemande>> GetAllWithDetailsAsync();
         Task<LigneDemande> GetByIdWithDetailsAsync(int id);
+        Task<List<LigneDemande>> GetByDemandeIdAsync(int demandeId);
     }
 }

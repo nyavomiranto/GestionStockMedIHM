@@ -53,6 +53,25 @@ public partial class AppDbContext : DbContext
             .Property(u => u.Etat)
             .HasDefaultValue(false);
 
+        // Configurer la relation entre SortieStock et LigneSortieStock
+        modelBuilder.Entity<SortieStock>()
+            .HasMany(s => s.LignesSortieStock)
+            .WithOne(l => l.SortieStock)
+            .HasForeignKey(l => l.SortieStockId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        // Configurer la relation entre LigneSortieStock et Medicament
+        modelBuilder.Entity<LigneSortieStock>()
+            .HasOne(l => l.Medicament)
+            .WithMany()
+            .HasForeignKey(l => l.MedicamentId)
+            .OnDelete(DeleteBehavior.Restrict);
+        modelBuilder.Entity<SortieStock>()
+            .HasOne(s => s.Utilisateur)
+            .WithMany(u => u.SortiesStock)
+            .HasForeignKey(s => s.UtilisateurId)
+            .OnDelete(DeleteBehavior.Restrict);
+
         OnModelCreatingPartial(modelBuilder);
     }
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

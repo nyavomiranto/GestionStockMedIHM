@@ -14,14 +14,12 @@ namespace GestionStockMedIHM.Services
         private readonly ILigneDemandeRepository _ligneDemandeRepository;
         private readonly IMedicamentService _medicamentService;
         private readonly IMapper _mapper;
-        private readonly ILogger<LigneDemandeService> _logger;
 
-        public LigneDemandeService(ILigneDemandeRepository ligneDemandeRepository, IMedicamentService medicamentService, IMapper mapper, ILogger<LigneDemandeService> logger)
+        public LigneDemandeService(ILigneDemandeRepository ligneDemandeRepository, IMedicamentService medicamentService, IMapper mapper)
         {
             _ligneDemandeRepository = ligneDemandeRepository;
             _medicamentService = medicamentService;
             _mapper = mapper;
-            _logger = logger;
         }
 
         public async Task<ApiResponse<LigneDemandeResponseDto>> CreateAsync(CreateLigneDemandeDto createLigneDemandeDto, int demandeId)

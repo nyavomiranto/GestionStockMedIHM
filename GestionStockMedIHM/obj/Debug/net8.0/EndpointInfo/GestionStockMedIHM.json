@@ -5,6 +5,35 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Auth": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilisateurResponseDtoIEnumerableApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilisateurResponseDtoIEnumerableApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UtilisateurResponseDtoIEnumerableApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Auth/register": {
       "post": {
         "tags": [
@@ -355,6 +384,86 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DemandeResponseDtoApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DemandeResponseDtoApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DemandeResponseDtoApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Demande/{demandeId}/confirm": {
+      "post": {
+        "tags": [
+          "Demande"
+        ],
+        "parameters": [
+          {
+            "name": "demandeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DemandeResponseDtoApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DemandeResponseDtoApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DemandeResponseDtoApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Demande/{demandeId}/refuse": {
+      "post": {
+        "tags": [
+          "Demande"
+        ],
+        "parameters": [
+          {
+            "name": "demandeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -1009,6 +1118,113 @@
         }
       }
     },
+    "/api/Notification": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotificationDtoIEnumerableApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotificationDtoIEnumerableApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotificationDtoIEnumerableApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Notification/{id}": {
+      "delete": {
+        "tags": [
+          "Notification"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BooleanApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BooleanApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BooleanApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SortieStock": {
+      "get": {
+        "tags": [
+          "SortieStock"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SortieStockResponseDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SortieStockResponseDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SortieStockResponseDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Stock/{id}": {
       "get": {
         "tags": [
@@ -1155,17 +1371,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/StockResponseDtoApiResponseIEnumerableApiResponse"
+                  "$ref": "#/components/schemas/StockResponseDtoIEnumerableApiResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StockResponseDtoApiResponseIEnumerableApiResponse"
+                  "$ref": "#/components/schemas/StockResponseDtoIEnumerableApiResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StockResponseDtoApiResponseIEnumerableApiResponse"
+                  "$ref": "#/components/schemas/StockResponseDtoIEnumerableApiResponse"
                 }
               }
             }
@@ -1247,8 +1463,7 @@
       },
       "CreateDemandeDto": {
         "required": [
-          "nomClient",
-          "statutDemande"
+          "nomClient"
         ],
         "type": "object",
         "properties": {
@@ -1256,9 +1471,6 @@
             "maxLength": 50,
             "minLength": 0,
             "type": "string"
-          },
-          "statutDemande": {
-            "$ref": "#/components/schemas/StatutDemande"
           },
           "lignesDemande": {
             "type": "array",
@@ -1434,7 +1646,8 @@
             "format": "date-time"
           },
           "statutDemande": {
-            "$ref": "#/components/schemas/StatutDemande"
+            "type": "string",
+            "nullable": true
           },
           "nomUtilisateur": {
             "type": "string",
@@ -1672,6 +1885,45 @@
         },
         "additionalProperties": false
       },
+      "LigneSortieStockResponseDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantite": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sortieStockId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomMedicamnet": {
+            "type": "string",
+            "nullable": true
+          },
+          "dosageMedicament": {
+            "type": "string",
+            "nullable": true
+          },
+          "prixUnitaire": {
+            "type": "string",
+            "nullable": true
+          },
+          "prixTotal": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "MedicamentDto": {
         "type": "object",
         "properties": {
@@ -1752,14 +2004,86 @@
         },
         "additionalProperties": false
       },
-      "StatutDemande": {
-        "enum": [
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
+      "NotificationDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "demandeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "estVue": {
+            "type": "boolean"
+          },
+          "dateNotification": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "utilisateurId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NotificationDtoIEnumerableApiResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NotificationDto"
+            },
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SortieStockResponseDto": {
+        "type": "object",
+        "properties": {
+          "demandeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "utilisateurId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dateSortie": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lignesSorties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LigneSortieStockResponseDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "StockResponseDto": {
         "type": "object",
@@ -1822,7 +2146,7 @@
         },
         "additionalProperties": false
       },
-      "StockResponseDtoApiResponseIEnumerableApiResponse": {
+      "StockResponseDtoIEnumerableApiResponse": {
         "type": "object",
         "properties": {
           "success": {
@@ -1835,7 +2159,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/StockResponseDtoApiResponse"
+              "$ref": "#/components/schemas/StockResponseDto"
             },
             "nullable": true
           },
@@ -1875,8 +2199,7 @@
       },
       "UpdateDemandeDto": {
         "required": [
-          "nomClient",
-          "statutDemande"
+          "nomClient"
         ],
         "type": "object",
         "properties": {
@@ -1884,9 +2207,6 @@
             "maxLength": 50,
             "minLength": 0,
             "type": "string"
-          },
-          "statutDemande": {
-            "$ref": "#/components/schemas/StatutDemande"
           },
           "lignesDemande": {
             "type": "array",
@@ -2111,6 +2431,33 @@
           },
           "data": {
             "$ref": "#/components/schemas/UtilisateurResponseDto"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UtilisateurResponseDtoIEnumerableApiResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UtilisateurResponseDto"
+            },
+            "nullable": true
           },
           "errors": {
             "type": "array",

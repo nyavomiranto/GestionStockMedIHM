@@ -2,7 +2,7 @@
 using GestionStockMedIHM.Domain.DTOs.Stocks;
 using GestionStockMedIHM.Models.Entities;
 
-namespace GestionStockMedIHM.Mappings
+namespace GestionStockMedIHM.Profiles
 {
     public class StockProfile: Profile
     {

@@ -3,6 +3,7 @@ using System;
 using GestionStockMedIHM.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace GestionStockMedIHM.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250521100259_UpdateSortieStockModel")]
+    partial class UpdateSortieStockModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -56,20 +59,20 @@ namespace GestionStockMedIHM.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DemandeId")
-                        .HasColumnType("integer");
-
                     b.Property<int>("MedicamentId")
                         .HasColumnType("integer");
 
                     b.Property<int>("Quantite")
                         .HasColumnType("integer");
 
+                    b.Property<int>("SortieStockId")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("DemandeId");
-
                     b.HasIndex("MedicamentId");
+
+                    b.HasIndex("SortieStockId");
 
                     b.ToTable("LigneSortieStocks");
                 });
@@ -340,21 +343,21 @@ namespace GestionStockMedIHM.Migrations
 
             modelBuilder.Entity("GestionStockMedIHM.Domain.Entities.LigneSortieStock", b =>
                 {
-                    b.HasOne("GestionStockMedIHM.Models.Entities.Demande", "Demande")
-                        .WithMany()
-                        .HasForeignKey("DemandeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("GestionStockMedIHM.Models.Entities.Medicament", "Medicament")
                         .WithMany()
                         .HasForeignKey("MedicamentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GestionStockMedIHM.Models.Entities.SortieStock", "SortieStock")
+                        .WithMany("LignesSortieStock")
+                        .HasForeignKey("SortieStockId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Demande");
-
                     b.Navigation("Medicament");
+
+                    b.Navigation("SortieStock");
                 });
 
             modelBuilder.Entity("GestionStockMedIHM.Domain.Entities.Notification", b =>
@@ -415,9 +418,9 @@ namespace GestionStockMedIHM.Migrations
                         .IsRequired();
 
                     b.HasOne("GestionStockMedIHM.Models.Entities.Utilisateur", "Utilisateur")
-                        .WithMany()
+                        .WithMany("SortiesStock")
                         .HasForeignKey("UtilisateurId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Demande");
@@ -441,9 +444,16 @@ namespace GestionStockMedIHM.Migrations
                     b.Navigation("LignesDemande");
                 });
 
+            modelBuilder.Entity("GestionStockMedIHM.Models.Entities.SortieStock", b =>
+                {
+                    b.Navigation("LignesSortieStock");
+                });
+
             modelBuilder.Entity("GestionStockMedIHM.Models.Entities.Utilisateur", b =>
                 {
                     b.Navigation("Demandes");
+
+                    b.Navigation("SortiesStock");
                 });
 #pragma warning restore 612, 618
         }

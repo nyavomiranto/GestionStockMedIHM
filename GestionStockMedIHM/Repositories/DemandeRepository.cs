@@ -19,15 +19,16 @@ namespace GestionStockMedIHM.Repositories
         public async Task<IEnumerable<Demande>> GetAllWithDetailsAsync()
         {
             return await _appDbContext.Demandes
-               .Include(d => d.Utilisateur) // Charge l'utilisateur associé
-               .Include(d => d.LignesDemande) // Charge les lignes de demande
-                   .ThenInclude(l => l.Medicament) // Charge le médicament de chaque ligne
+               .Include(d => d.Utilisateur) 
+               .Include(d => d.LignesDemande) 
+                   .ThenInclude(l => l.Medicament) 
                .ToListAsync();
         }
 
         public async Task<Demande> GetByIdWithDetailsAsync(int id)
         {
             return await _appDbContext.Demandes
+                 .Include(d => d.Utilisateur)
                 .Include(d => d.LignesDemande)
                     .ThenInclude(ld => ld.Medicament)
                 .FirstOrDefaultAsync(d => d.Id == id);

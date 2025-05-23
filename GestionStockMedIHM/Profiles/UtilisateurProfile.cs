@@ -2,7 +2,7 @@
 using GestionStockMedIHM.Domain.DTOs.Utilisateurs;
 using GestionStockMedIHM.Models.Entities;
 
-namespace GestionStockMedIHM.Mappings
+namespace GestionStockMedIHM.Profiles
 {
     public class UtilisateurProfile: Profile
     {

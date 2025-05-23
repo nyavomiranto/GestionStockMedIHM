@@ -22,5 +22,15 @@ namespace GestionStockMedIHM.Repositories
         {
             return await _appDbContext.Utilisateurs.AnyAsync(u => u.Email == email);
         }
+
+        public async Task<int> GetAdminIdAsync()
+        {
+            var admin = await _appDbContext.Utilisateurs.FirstOrDefaultAsync(u => u.Role == "Admin");
+            if (admin == null)
+            {
+                throw new Exception("Aucun Administrateur trouvé dans le système");
+            }
+            return admin.Id;
+        }
     }
 }

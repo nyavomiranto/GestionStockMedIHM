@@ -1,6 +1,7 @@
 ﻿using GestionStockMedIHM.Domain.DTOs.EntreStocks;
 using GestionStockMedIHM.Domain.DTOs.Responses;
 using GestionStockMedIHM.Interfaces.EntreStocks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Admin")]
     public class EntreStockController : ControllerBase
     {
         private readonly IEntreStockService _entreStockService;

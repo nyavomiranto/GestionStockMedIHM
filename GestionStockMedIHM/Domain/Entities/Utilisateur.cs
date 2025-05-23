@@ -16,6 +16,7 @@ namespace GestionStockMedIHM.Models.Entities
         public string Role { get; set; }
         public bool Etat { get; set; } = false;
         public ICollection<Demande> Demandes { get; set; } = new List<Demande>();
+        public ICollection<SortieStock> SortiesStock { get; set; } = new List<SortieStock>();
     }
 
 

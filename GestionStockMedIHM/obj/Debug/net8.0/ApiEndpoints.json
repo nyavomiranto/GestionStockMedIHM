@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "GestionStockMedIHM.Controllers.AuthController",
+    "Method": "GetAll",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[System.Collections.Generic.IEnumerable\u00601[[GestionStockMedIHM.Domain.DTOs.Utilisateurs.UtilisateurResponseDto, GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStockMedIHM.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -113,6 +133,58 @@
       {
         "Name": "demande",
         "Type": "GestionStockMedIHM.Domain.DTOs.Demandes.CreateDemandeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[GestionStockMedIHM.Domain.DTOs.Demandes.DemandeResponseDto, GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStockMedIHM.Controllers.DemandeController",
+    "Method": "ConfirmDemandeAsync",
+    "RelativePath": "api/Demande/{demandeId}/confirm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "demandeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[GestionStockMedIHM.Domain.DTOs.Demandes.DemandeResponseDto, GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStockMedIHM.Controllers.DemandeController",
+    "Method": "RefuseDemandeAsync",
+    "RelativePath": "api/Demande/{demandeId}/refuse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "demandeId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -599,6 +671,72 @@
     ]
   },
   {
+    "ContainingType": "GestionStockMedIHM.Controllers.NotificationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[System.Collections.Generic.IEnumerable\u00601[[GestionStockMedIHM.Domain.DTOs.Notification.NotificationDto, GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStockMedIHM.Controllers.NotificationController",
+    "Method": "Delete",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStockMedIHM.Controllers.SortieStockController",
+    "Method": "GetAll",
+    "RelativePath": "api/SortieStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestionStockMedIHM.Domain.DTOs.SortieStocks.SortieStockResponseDto, GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "GestionStockMedIHM.Controllers.StockController",
     "Method": "GetAll",
     "RelativePath": "api/Stock",
@@ -608,7 +746,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[System.Collections.Generic.IEnumerable\u00601[[GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[GestionStockMedIHM.Domain.DTOs.Stocks.StockResponseDto, GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "GestionStockMedIHM.Domain.DTOs.Responses.ApiResponse\u00601[[System.Collections.Generic.IEnumerable\u00601[[GestionStockMedIHM.Domain.DTOs.Stocks.StockResponseDto, GestionStockMedIHM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

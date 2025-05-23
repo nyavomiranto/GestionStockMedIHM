@@ -2,7 +2,7 @@
 using GestionStockMedIHM.Domain.DTOs.LignesDemandes;
 using GestionStockMedIHM.Domain.Entities;
 
-namespace GestionStockMedIHM.Mappings
+namespace GestionStockMedIHM.Profiles
 {
     public class LigneDemandeProfile : Profile
     {

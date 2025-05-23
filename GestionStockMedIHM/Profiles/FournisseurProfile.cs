@@ -2,7 +2,7 @@
 using GestionStockMedIHM.Domain.DTOs.Fournisseurs;
 using GestionStockMedIHM.Models.Entities;
 
-namespace GestionStockMedIHM.Mappings
+namespace GestionStockMedIHM.Profiles
 {
     public class FournisseurProfile: Profile
     {

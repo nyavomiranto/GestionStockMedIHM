@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionStockMedIHM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e91117629d48f550ee67c0a35dbc0687e7140bd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c29185172085b224c3a60fcbfb72678a33cfaa1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionStockMedIHM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionStockMedIHM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

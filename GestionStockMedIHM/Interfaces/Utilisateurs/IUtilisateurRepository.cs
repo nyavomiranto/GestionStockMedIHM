@@ -6,6 +6,7 @@ namespace GestionStockMedIHM.Interfaces.Utilisateurs
     {
         Task<Utilisateur> GetByEmailAsync(string email);
         Task<bool> EmailExistsAsync(string email);
+        Task <int> GetAdminIdAsync();
         
     }
 }

@@ -1,4 +1,5 @@
 ﻿using GestionStockMedIHM.Domain.DTOs.Responses;
+using GestionStockMedIHM.Domain.DTOs.Stocks;
 using GestionStockMedIHM.Domain.DTOs.Utilisateurs;
 using GestionStockMedIHM.Models.Entities;
 
@@ -10,6 +11,6 @@ namespace GestionStockMedIHM.Interfaces.Utilisateurs
         Task<ApiResponse<string>> LoginAsync(UtilisateurLoginDto utilisateurLoginDto);
         Task<ApiResponse<UtilisateurResponseDto>> UpdateUtilisateurEtatAsync(int IdUtilisateur, UtilisateurUpdateEtatDto utilisateurUpdateEtatDto);
         string GenerateJwtToken(Utilisateur utilisateur);
-
+        Task<ApiResponse<IEnumerable<UtilisateurResponseDto>>> GetAllAsync();
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using GestionStockMedIHM.Domain.DTOs.Demandes;
 using GestionStockMedIHM.Domain.DTOs.Responses;
+using GestionStockMedIHM.Domain.DTOs.Stocks;
 using GestionStockMedIHM.Domain.DTOs.Utilisateurs;
 using GestionStockMedIHM.Interfaces.Utilisateurs;
 using GestionStockMedIHM.Models.Entities;
@@ -128,6 +129,22 @@ namespace GestionStockMedIHM.Services
                     signingCredentials: creds);
 
                 return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public async Task<ApiResponse<IEnumerable<UtilisateurResponseDto>>> GetAllAsync()
+        {
+            try
+            {
+                var utilisateurs = await _utilisateurRepository.GetAllAsync();
+                var result = _mapper.Map<IEnumerable<UtilisateurResponseDto>>(utilisateurs);
+                return ApiResponse<IEnumerable<UtilisateurResponseDto>>.SuccessResponse(result);
+            }
+            catch (Exception ex)
+            {
+                return ApiResponse<IEnumerable<UtilisateurResponseDto>>.ErrorResponse(
+                    "Erreur lors de la récupération des utilisateurs",
+                    new List<string> { ex.Message });
+            }
         }
 
     }

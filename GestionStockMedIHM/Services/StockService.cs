@@ -60,7 +60,17 @@ namespace GestionStockMedIHM.Services
         {
             try
             {
-                var medicamentResponse = await _mediicamentService.GetByNomAsync(createStockDto.NomMedicament);
+                if (createStockDto.Quantite < 0)
+                {
+                    return ApiResponse<StockResponseDto>.ErrorResponse("La quantité ne peut pas être négative");
+                }
+
+                if (createStockDto.DatePeremption < DateTime.UtcNow)
+                {
+                    return ApiResponse<StockResponseDto>.ErrorResponse("La date de péremption ne peut pas être dans le passé");
+                }
+                    var medicamentResponse = await _mediicamentService.GetByNomAsync(createStockDto.NomMedicament);
+                
                 if (!medicamentResponse.Success || medicamentResponse.Data == null)
                 {
                     return ApiResponse<StockResponseDto>.ErrorResponse("Médicament non trouvé");
@@ -86,14 +96,27 @@ namespace GestionStockMedIHM.Services
         {
             try
             {
-                var existingStock = await _stockRepository.GetByIdAsync(id);
+                if (updateStockDto.Quantite < 0)
+                {
+                    return ApiResponse<StockResponseDto>.ErrorResponse("La quantité ne peut pas être négative");
+                }
+
+                if (updateStockDto.DatePeremption < DateTime.UtcNow)
+                {
+                    return ApiResponse<StockResponseDto>.ErrorResponse("La date de péremption ne peut pas être dans le passé");
+                }
+
+                var existingStock = await _stockRepository.GetByIdWithDetailsAsync(id);
                 if (existingStock == null)
                 {
+                    Console.WriteLine($"Erreur : Stock non trouvé pour ID={id}");
                     return ApiResponse<StockResponseDto>.ErrorResponse("Stock non trouvé");
                 }
 
-                if (!string.IsNullOrEmpty(updateStockDto.NomMedicament) && !existingStock.Medicament.Nom.Equals(updateStockDto.NomMedicament, StringComparison.OrdinalIgnoreCase))
+                if (!string.IsNullOrEmpty(updateStockDto.NomMedicament) &&
+                    !existingStock.Medicament.Nom.Equals(updateStockDto.NomMedicament, StringComparison.OrdinalIgnoreCase))
                 {
+
                     var medicamentResponse = await _mediicamentService.GetByNomAsync(updateStockDto.NomMedicament);
                     if (!medicamentResponse.Success || medicamentResponse.Data == null)
                     {
@@ -103,19 +126,21 @@ namespace GestionStockMedIHM.Services
                 }
 
                 _mapper.Map(updateStockDto, existingStock);
+ 
                 await _stockRepository.UpdateAsync(existingStock);
 
                 var result = _mapper.Map<StockResponseDto>(existingStock);
+
                 return ApiResponse<StockResponseDto>.SuccessResponse(result);
             }
             catch (Exception ex)
             {
+                Console.WriteLine($"Exception dans UpdateAsync : {ex.Message}");
                 return ApiResponse<StockResponseDto>.ErrorResponse(
                     "Erreur lors de la mise à jour du stock",
                     new List<string> { ex.Message });
             }
         }
-
         public async Task<ApiResponse<bool>> DeleteAsync(int id)
         {
             try

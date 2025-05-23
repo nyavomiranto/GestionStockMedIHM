@@ -1,6 +1,7 @@
 ﻿using GestionStockMedIHM.Domain.DTOs.Responses;
 using GestionStockMedIHM.Domain.DTOs.Stocks;
 using GestionStockMedIHM.Interfaces.Stocks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class StockController : ControllerBase
     {
         private readonly IStockService _stockService;
@@ -29,7 +31,7 @@ namespace GestionStockMedIHM.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<ApiResponse<IEnumerable<ApiResponse<StockResponseDto>>>>> GetAll()
+        public async Task<ActionResult<ApiResponse<IEnumerable<StockResponseDto>>>> GetAll()
         {
             var response = await _stockService.GetAllAsync();
             if (!response.Success)

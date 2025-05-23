@@ -3,6 +3,7 @@ using GestionStockMedIHM.Domain.DTOs.Responses;
 using GestionStockMedIHM.Interfaces.Medicaments;
 using GestionStockMedIHM.Models.Entities;
 using GestionStockMedIHM.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Admin")]
     public class MedicamentController : ControllerBase
     {
         private readonly IMedicamentService _medicamentService;

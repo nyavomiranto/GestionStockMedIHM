@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\mappings\\utilisateurprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\mappings\\utilisateurprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\mappings\\demandeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\mappings\\demandeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\interfaces\\utilisateurs\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\interfaces\\utilisateurs\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\domain\\dtos\\apis\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\domain\\dtos\\apis\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\demandecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,52 +15,44 @@
       "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\services\\demandeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\services\\lignedemandeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\services\\lignedemandeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\interfaces\\demandes\\idemandeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\interfaces\\demandes\\idemandeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\services\\medicamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\services\\medicamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\sortiestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\sortiestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\domain\\entities\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\domain\\entities\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\medicamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\medicamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\mappings\\medicamentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\mappings\\medicamentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\fournisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\fournisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\mappings\\entrestockprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\mappings\\entrestockprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\entrestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\entrestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\mappings\\fournisseurprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\mappings\\fournisseurprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\profiles\\demandeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\profiles\\demandeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\mappings\\lignedemandeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\mappings\\lignedemandeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurupdateetatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\domain\\dtos\\utilisateurs\\utilisateurupdateetatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|c:\\users\\ny avo\\source\\repos\\gestionstockmedihm\\gestionstockmedihm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F43269-BF8D-4D6A-BC1A-0C143C507748}|GestionStockMedIHM\\GestionStockMedIHM.csproj|solutionrelative:gestionstockmedihm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,271 +62,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Program.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Program.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Program.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Program.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAQwHsAAAAmAAAAAAAAAA==",
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\APIs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Domain\\DTOs\\APIs\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\APIs\\ApiResponse.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Domain\\DTOs\\APIs\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T21:42:28.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DemandeController.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\DemandeController.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\DemandeController.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\DemandeController.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\DemandeController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T21:25:14.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T21:23:33.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UtilisateurProfile.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\UtilisateurProfile.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Mappings\\UtilisateurProfile.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\UtilisateurProfile.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Mappings\\UtilisateurProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:12:10.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DemandeService.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\DemandeService.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Services\\DemandeService.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\DemandeService.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Services\\DemandeService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwGAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T21:07:24.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\appsettings.json",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\appsettings.json",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\appsettings.json",
-              "RelativeToolTip": "GestionStockMedIHM\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-17T20:38:07.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LigneDemandeService.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\LigneDemandeService.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Services\\LigneDemandeService.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\LigneDemandeService.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Services\\LigneDemandeService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:25:13.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\AuthService.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Services\\AuthService.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAqwIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T14:30:22.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Interfaces\\Utilisateurs\\IAuthService.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Interfaces\\Utilisateurs\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Interfaces\\Utilisateurs\\IAuthService.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Interfaces\\Utilisateurs\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T19:48:29.051Z",
+              "WhenOpened": "2025-05-23T13:58:48.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DemandeProfile.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\DemandeProfile.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Mappings\\DemandeProfile.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\DemandeProfile.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Mappings\\DemandeProfile.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "IDemandeService.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Interfaces\\Demandes\\IDemandeService.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Interfaces\\Demandes\\IDemandeService.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Interfaces\\Demandes\\IDemandeService.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Interfaces\\Demandes\\IDemandeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:03:25.67Z",
+              "WhenOpened": "2025-05-23T13:49:05.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemandeService.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\DemandeService.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Services\\DemandeService.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\DemandeService.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Services\\DemandeService.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAcwOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:48:08.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\StockController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\StockController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:30:18.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SortieStockController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\SortieStockController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\SortieStockController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\SortieStockController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\SortieStockController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:30:12.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:29:54.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicamentController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\MedicamentController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\MedicamentController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\MedicamentController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\MedicamentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:29:45.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FournisseurController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\FournisseurController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\FournisseurController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\FournisseurController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\FournisseurController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:29:32.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntreStockController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\EntreStockController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\EntreStockController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\EntreStockController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\EntreStockController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:29:20.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "MedicamentService.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\MedicamentService.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Services\\MedicamentService.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Services\\MedicamentService.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Services\\MedicamentService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DemandeProfile.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Profiles\\DemandeProfile.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Profiles\\DemandeProfile.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Profiles\\DemandeProfile.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Profiles\\DemandeProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:25:06.054Z",
+              "WhenOpened": "2025-05-23T13:28:19.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "UtilisateurResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurResponseDto.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurResponseDto.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurResponseDto.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Program.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Program.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Program.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:08:56.893Z",
+              "WhenOpened": "2025-05-23T13:27:50.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DemandeController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\DemandeController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\DemandeController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\DemandeController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\DemandeController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwFwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:27:10.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\Entities\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Domain\\Entities\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\Entities\\Utilisateur.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Domain\\Entities\\Utilisateur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "GestionStockMedIHM\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "GestionStockMedIHM\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:00:51.048Z",
+              "WhenOpened": "2025-05-23T13:27:04.305Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MedicamentProfile.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\MedicamentProfile.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Mappings\\MedicamentProfile.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\MedicamentProfile.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Mappings\\MedicamentProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:16:43.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FournisseurProfile.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\FournisseurProfile.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Mappings\\FournisseurProfile.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\FournisseurProfile.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Mappings\\FournisseurProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:16:34.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LigneDemandeProfile.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\LigneDemandeProfile.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Mappings\\LigneDemandeProfile.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\LigneDemandeProfile.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Mappings\\LigneDemandeProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:16:30.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EntreStockProfile.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\EntreStockProfile.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Mappings\\EntreStockProfile.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Mappings\\EntreStockProfile.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Mappings\\EntreStockProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:03:29.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UtilisateurLoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurLoginDto.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurLoginDto.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurLoginDto.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurLoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:09:55.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UtilisateurRegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurRegisterDto.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurRegisterDto.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurRegisterDto.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurRegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:08:40.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UtilisateurUpdateEtatDto.cs",
-              "DocumentMoniker": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurUpdateEtatDto.cs",
-              "RelativeDocumentMoniker": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurUpdateEtatDto.cs",
-              "ToolTip": "C:\\Users\\NY AVO\\source\\repos\\GestionStockMedIHM\\GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurUpdateEtatDto.cs",
-              "RelativeToolTip": "GestionStockMedIHM\\Domain\\DTOs\\Utilisateurs\\UtilisateurUpdateEtatDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:08:58.811Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
