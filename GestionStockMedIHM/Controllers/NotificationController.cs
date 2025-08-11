@@ -10,7 +10,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class NotificationController : ControllerBase
     {
         private readonly INotificationService _notificationService;

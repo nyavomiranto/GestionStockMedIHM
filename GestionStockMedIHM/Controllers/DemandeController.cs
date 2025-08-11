@@ -9,7 +9,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Vendeur")]
+    //[Authorize(Roles = "Vendeur")]
     public class DemandeController : ControllerBase
     {
         private readonly IDemandeService _demandeService;

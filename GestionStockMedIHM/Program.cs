@@ -16,7 +16,6 @@ using GestionStockMedIHM.Repositories;
 using GestionStockMedIHM.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Cryptography;
 using System.Text;
@@ -138,11 +137,11 @@ builder.Services.AddCors(options =>
         policy.WithOrigins("http://localhost:5500",
             "http://localhost:3000",
             "https://localhost:7191",
-            "http://127.0.0.1:5501", // Add this
-            "http://localhost:5501") // Ajoute les origines du client
+            "http://127.0.0.1:5501",
+            "http://localhost:5501") 
               .AllowAnyHeader()
               .AllowAnyMethod()
-              .AllowCredentials(); // pour SignalR avec JWT
+              .AllowCredentials();
     });
 });
 

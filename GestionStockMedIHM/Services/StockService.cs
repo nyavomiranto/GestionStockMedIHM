@@ -56,6 +56,22 @@ namespace GestionStockMedIHM.Services
             }
         }
 
+        public async Task<ApiResponse<IEnumerable<StockResponseDto>>> GetAllGroupByAsync()
+        {
+            try
+            {
+                var stocks = await _stockRepository.GetGroupedStocksAsync();
+                var result = _mapper.Map<IEnumerable<StockResponseDto>>(stocks);
+                return ApiResponse<IEnumerable<StockResponseDto>>.SuccessResponse(result);
+            }
+            catch (Exception ex) 
+            {
+                return ApiResponse<IEnumerable<StockResponseDto>>.ErrorResponse(
+                    "Erreur lors de la récupération des stocks",
+                    new List<string> { ex.Message });
+            }
+        }
+
         public async Task<ApiResponse<StockResponseDto>> CreateAsync(CreateStockDto createStockDto)
         {
             try

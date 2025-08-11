@@ -9,7 +9,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class EntreStockController : ControllerBase
     {
         private readonly IEntreStockService _entreStockService;

@@ -5,7 +5,7 @@ using System;
 
 namespace GestionStockMedIHM.Repositories
 {
-    public class StockRepository: Repository<Stock>, IStockRepository
+    public class StockRepository : Repository<Stock>, IStockRepository
     {
         private AppDbContext _appDbContext;
 
@@ -41,6 +41,40 @@ namespace GestionStockMedIHM.Repositories
                 .Where(s => s.MedicamentId == medicamentId && s.Quantite > 0)
                 .OrderBy(s => s.DatePeremption)
                 .ToListAsync();
+        }
+
+        public async Task<List<Stock>> GetGroupedStocksAsync()
+        {
+            var groupedStocks = await _appDbContext.Stocks
+                .Include(s => s.Medicament)
+                .GroupBy(s => new
+                {
+                    s.MedicamentId,
+                    s.Medicament.Nom,
+                    s.Medicament.Description,
+                    s.Medicament.Forme,
+                    s.Medicament.Dosage,
+                    s.Medicament.PrixVente
+                })
+                .Select(g => new Stock
+                {
+                    MedicamentId = g.Key.MedicamentId,
+                    DatePeremption = default(DateTime),
+                    Quantite = g.Sum(s => s.Quantite),
+                    Medicament = new Medicament
+                    {
+                        Id = g.Key.MedicamentId,
+                        Nom = g.Key.Nom,
+                        Description = g.Key.Description,
+                        Forme = g.Key.Forme,
+                        Dosage = g.Key.Dosage,
+                        PrixVente = g.Key.PrixVente
+                    }
+                })
+                .OrderBy(s => s.Medicament.Nom)
+                .ToListAsync();
+
+            return groupedStocks;
         }
     }
 }

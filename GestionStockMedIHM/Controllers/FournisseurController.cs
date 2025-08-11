@@ -9,7 +9,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class FournisseurController : ControllerBase
     {
         private readonly IFournisseurService _fournisseurService;

@@ -11,7 +11,7 @@ namespace GestionStockMedIHM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class MedicamentController : ControllerBase
     {
         private readonly IMedicamentService _medicamentService;

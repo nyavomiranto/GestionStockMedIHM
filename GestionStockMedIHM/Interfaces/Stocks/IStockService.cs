@@ -13,5 +13,6 @@ namespace GestionStockMedIHM.Interfaces.Stocks
         Task<ApiResponse<StockResponseDto>> UpdateAsync(int id, UpdateStockDto updateStockDto);
         Task<ApiResponse<bool>> DeleteAsync(int id);
         Task<ApiResponse<StockResponseDto>> GetByMedicamentAndDateRepemptionAsync(int medicamentId, DateTime datePeremption);
+        Task<ApiResponse<IEnumerable<StockResponseDto>>> GetAllGroupByAsync();
     }
 }

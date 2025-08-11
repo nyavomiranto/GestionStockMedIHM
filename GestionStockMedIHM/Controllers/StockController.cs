@@ -41,6 +41,17 @@ namespace GestionStockMedIHM.Controllers
             return Ok(response);
         }
 
+        [HttpGet("groupBy")]
+        public async Task<ActionResult<ApiResponse<IEnumerable<StockResponseDto>>>> GetAllGroupBy()
+        {
+            var response = await _stockService.GetAllGroupByAsync();
+            if (!response.Success)
+            {
+                return BadRequest(response);
+            }
+            return Ok(response);
+        }
+
         [HttpPost]
         public async Task<ActionResult<ApiResponse<StockResponseDto>>> Create([FromBody] CreateStockDto stock)
         {

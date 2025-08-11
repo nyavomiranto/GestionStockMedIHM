@@ -103,7 +103,7 @@ namespace GestionStockMedIHM.Services
             catch (Exception ex) 
             {
                 return ApiResponse<UtilisateurResponseDto>.ErrorResponse(
-                               "Erreur lors de la creation de la mise à jour de l'état de l'utilisateur",
+                               "Erreur lors de la mise à jour de l'état de l'utilisateur",
                                new List<string> { ex.Message });
             }
         }
@@ -125,7 +125,7 @@ namespace GestionStockMedIHM.Services
                     issuer: _configuration["Jwt:Issuer"],
                     audience: _configuration["Jwt:Audience"],
                     claims: claims,
-                    expires: DateTime.Now.AddHours(1),
+                    expires: DateTime.Now.AddHours(4),
                     signingCredentials: creds);
 
                 return new JwtSecurityTokenHandler().WriteToken(token);
